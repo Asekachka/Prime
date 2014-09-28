@@ -1,0 +1,8 @@
+>>> from graphics import *
+>>> win=GraphWin("Shapes")
+>>> #draw red circle
+>>> #s tochkami(100,100) и radius 30 gradusov
+>>> center=Point(100,100)
+>>> circ=Circle(center,30)
+>>> circ.setFill('red')
+>>> circ.draw(win)
